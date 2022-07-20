@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: bisque;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding: 10px;
+}
+
+header{
+    background-color: darkslategrey;
+    padding: 50px;
+}
+
+main{
+    background-color: bisque;
+    padding-bottom: 500px;
+}
+
+#logo{
+    text-align: center;
+    padding-bottom: 15px;
+}
+form{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: bisque;
+}
+#formu {
+    text-align: center;
+    width: 50%;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: darkslategray; }
+    #formu label {
+        width: 50%;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 8px; }
+    #formu input[type="text"],
+    #formu input[type="email"],
+    #formu input[type="number"] {
+        font-size: 15px;
+        width: 90%;
+        padding: 3px 10px 15px;
+        border: 1px solid #07070A;
+        border-radius: 3px;
+        background-color: white;
+        margin: 8px 5% 0 5%;
+        display: inline-block; }
+    #formu input[type="submit"],
+    #formu input[type="reset"] {
+        width: 90%;
+        padding: 8px 16px;
+        margin-top: 5%;
+        border: 1px solid #07070A;
+        border-radius: 5px;
+        display: inline-block;
+        color: white;
+        background-color: #07070A; }
+    #formu input[type="submit"]:hover {
+        cursor: pointer;}
+    #formu #botEnv{
+        text-align: center;
+        width: 40%;
+        padding: 8px 16px;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: 1px solid #07070A;
+        border-radius: 5px;
+        display: inline-block;
+        color: white;
+        background-color: black }
+li{
+    list-style: none;
+    padding: 10px;
+}
